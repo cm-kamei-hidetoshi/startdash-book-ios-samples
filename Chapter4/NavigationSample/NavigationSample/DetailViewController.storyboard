@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DEv-Sh-OLK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="TSH-ci-fj6">
+            <objects>
+                <viewController id="DEv-Sh-OLK" customClass="DetailViewController" customModule="NavigationSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="88N-Xe-fvu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9T-2a-DeK">
+                                <rect key="frame" x="20" y="437.5" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="H9T-2a-DeK" firstAttribute="leading" secondItem="lSJ-gt-NJX" secondAttribute="leading" constant="20" id="M6U-xu-ku7"/>
+                            <constraint firstItem="lSJ-gt-NJX" firstAttribute="trailing" secondItem="H9T-2a-DeK" secondAttribute="trailing" constant="20" id="aoZ-Yn-oZB"/>
+                            <constraint firstItem="H9T-2a-DeK" firstAttribute="centerY" secondItem="88N-Xe-fvu" secondAttribute="centerY" id="xd4-Jf-ZkI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lSJ-gt-NJX"/>
+                    </view>
+                    <connections>
+                        <outlet property="fruitNameLabel" destination="H9T-2a-DeK" id="DgV-DO-QGN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YON-QF-eEM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463" y="-301"/>
+        </scene>
+    </scenes>
+</document>
