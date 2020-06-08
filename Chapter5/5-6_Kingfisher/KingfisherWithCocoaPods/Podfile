@@ -1,0 +1,3 @@
+target 'KingfisherWithCocoaPods' do
+  pod 'Kingfisher'
+end
